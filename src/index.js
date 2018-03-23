@@ -1,27 +1,16 @@
+import { Navigation } from 'react-native-navigation';
 
-import React, { Component } from 'react';
-import {
-  Platform,
-  StyleSheet,
-  Text,
-  View,
-  TouchableOpacity
-} from 'react-native';
+import * as Pages from '@pages';
 
-import styles from './style';
-
-export default class App extends Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.logo}>MiniTaiko</Text>
-
-        <TouchableOpacity>
-          <Text style={styles.btnStart}>
-            开始游戏
-          </Text>
-        </TouchableOpacity>
-      </View>
-    );
-  }
+/* register all of the pages here */
+for (const [key, Page] of Object.entries(Pages)) {
+  Navigation.registerComponent(Page.navigatorOptions.screen, () => Page);
 }
+
+Navigation.startSingleScreenApp({
+	screen: Pages.Starting.navigatorOptions,
+	drawer: {
+	},
+	passProps: {}, // simple serializable object that will pass as props to all top screens (optional)
+	animationType: 'slide-down' // optional, add transition animation to root change: 'none', 'slide-down', 'fade'
+});

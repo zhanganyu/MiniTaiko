@@ -1,7 +1,11 @@
 export default styles = {
     logo: {
         fontSize: 24,
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        padding:10
+    },
+    logoText: {
+        fontSize: 17
     },
     container: {
         flex: 1,
