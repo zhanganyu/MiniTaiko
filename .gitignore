@@ -1,53 +1,67 @@
-# OSX
-#
+#/////////////////////////////////////////////////////////////////////////////
+# Fireball Projects
+#/////////////////////////////////////////////////////////////////////////////
+
+library/
+temp/
+local/
+build/
+
+#/////////////////////////////////////////////////////////////////////////////
+# Logs and databases
+#/////////////////////////////////////////////////////////////////////////////
+
+*.log
+*.sql
+*.sqlite
+
+#/////////////////////////////////////////////////////////////////////////////
+# files for debugger
+#/////////////////////////////////////////////////////////////////////////////
+
+*.sln
+*.csproj
+*.pidb
+*.unityproj
+*.suo
+
+#/////////////////////////////////////////////////////////////////////////////
+# OS generated files
+#/////////////////////////////////////////////////////////////////////////////
+
 .DS_Store
+ehthumbs.db
+Thumbs.db
 
-# Xcode
-#
-build/
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata
-*.xccheckout
-*.moved-aside
-DerivedData
-*.hmap
-*.ipa
-*.xcuserstate
-project.xcworkspace
+#/////////////////////////////////////////////////////////////////////////////
+# exvim files
+#/////////////////////////////////////////////////////////////////////////////
 
-# Android/IntelliJ
-#
-build/
-.idea
-.gradle
-local.properties
-*.iml
+*UnityVS.meta
+*.err
+*.err.meta
+*.exvim
+*.exvim.meta
+*.vimentry
+*.vimentry.meta
+*.vimproject
+*.vimproject.meta
+.vimfiles.*/
+.exvim.*/
+quick_gen_project_*_autogen.bat
+quick_gen_project_*_autogen.bat.meta
+quick_gen_project_*_autogen.sh
+quick_gen_project_*_autogen.sh.meta
+.exvim.app
 
-# node.js
-#
-node_modules/
-npm-debug.log
-yarn-error.log
+#/////////////////////////////////////////////////////////////////////////////
+# webstorm files
+#/////////////////////////////////////////////////////////////////////////////
 
-# BUCK
-buck-out/
-\.buckd/
-*.keystore
+.idea/
 
-# fastlane
-#
-# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
-# screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://docs.fastlane.tools/best-practices/source-control/
+#//////////////////////////
+# VS Code
+#//////////////////////////
 
-*/fastlane/report.xml
-*/fastlane/Preview.html
-*/fastlane/screenshots
+.vscode/

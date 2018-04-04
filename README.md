@@ -1,2 +1,2 @@
-# MiniTaiko
-迷你太阁
+# hello-world
+Hello world new project template.
