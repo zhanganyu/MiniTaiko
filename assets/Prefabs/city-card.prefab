@@ -63,8 +63,8 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 410,
-      "y": -225
+      "x": 910,
+      "y": 95
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -169,7 +169,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 45,
+      "width": 30,
       "height": 15
     },
     "_rotationX": 0,
@@ -204,7 +204,7 @@
     "_N$file": null,
     "_isSystemFontUsed": true,
     "_spacingX": 0,
-    "_N$string": "自家宅",
+    "_N$string": "自宅",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
@@ -216,9 +216,9 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "143df800-de7d-448e-8aec-3a4d4fd03b74"
     },
-    "fileId": "c6invxMpNB1JZwJJ5pRDkV",
+    "fileId": "f8aACMj1tOGq3XYhFoFSnX",
     "sync": false
   },
   {
@@ -279,9 +279,9 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "143df800-de7d-448e-8aec-3a4d4fd03b74"
     },
-    "fileId": "32xxNvkYZG6YiHXj8HypaX",
+    "fileId": "a3pJsJZ1dDWoLHJy/XoOZQ",
     "sync": false
   },
   {
@@ -335,9 +335,7 @@
     },
     "duration": 0.1,
     "zoomScale": 1.2,
-    "clickEvents": [
-      null
-    ],
+    "clickEvents": [],
     "_N$interactable": true,
     "_N$enableAutoGrayEffect": false,
     "_N$normalColor": {
@@ -376,7 +374,7 @@
     "_target": null,
     "_alignFlags": 36,
     "_left": 0,
-    "_right": 20,
+    "_right": 0,
     "_top": 0,
     "_bottom": 20,
     "_verticalCenter": 0,
@@ -406,9 +404,9 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "143df800-de7d-448e-8aec-3a4d4fd03b74"
     },
-    "fileId": "55H2WlCklNjYMPn9+lHqI4",
+    "fileId": "36kxH/jPNC6K/znWI6uZTp",
     "sync": false
   }
 ]

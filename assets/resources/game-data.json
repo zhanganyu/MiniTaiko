@@ -1,0 +1,30 @@
+{
+    "roleName": "木下藤吉郎",
+    "gameDate": "1956-01-01",
+    "money": 0,
+    "job": "足轻大将",
+    "position": {
+        "lat": 7449.09,
+        "lng": 2730.55
+    },
+    "city": {
+        "cityId": "1",
+        "cityName": "清州城",
+        "cityType": "18",
+        "lng": "2730.55",
+        "lat": "7449.09"
+    },
+    "country": "尾张国",
+    "largeAvatar":"avatar_big518",
+    "smallAvatar":"tgl_01",
+    "chapterNo":-1,
+    "meeting":{
+        "city" : "清州城",
+        "date": "1956-03-01",
+        "duration":5
+    },
+    "task":{
+        "target" : "购买军粮3千石",
+        "date": "1956-05-01"
+    }
+}

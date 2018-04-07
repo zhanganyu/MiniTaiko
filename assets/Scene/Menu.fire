@@ -75,7 +75,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 22
+        "__id__": 21
       }
     ],
     "_prefab": null,
@@ -451,9 +451,6 @@
       },
       {
         "__id__": 17
-      },
-      {
-        "__id__": 21
       }
     ],
     "_prefab": null,
@@ -461,9 +458,9 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
+      "r": 214,
+      "g": 214,
+      "b": 214,
       "a": 255
     },
     "_cascadeOpacityEnabled": true,
@@ -682,7 +679,7 @@
     },
     "component": "SceneManager",
     "handler": "sceneJumpToTarget",
-    "customEventData": ""
+    "customEventData": "SelectPage"
   },
   {
     "__type__": "cc.Node",
@@ -750,16 +747,6 @@
     "alertWindow": null,
     "alertText": "",
     "actionScene": ""
-  },
-  {
-    "__type__": "2fe51rZrTBN0IRwt5KpELIg",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 12
-    },
-    "_enabled": true,
-    "sceneTarget": "SelectPage"
   },
   {
     "__type__": "cc.Canvas",

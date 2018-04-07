@@ -21,12 +21,10 @@ cc.Class({
             default:null
         },
         alertText: {
-            type: cc.String,
             default: ''
         },
         actionScene: {
-            type: cc.String,
-            default:''
+            default: ''
         }
     },
 
@@ -34,12 +32,10 @@ cc.Class({
         this.audioID = cc.audioEngine.play(this.bgm, true, 1);
     },
 
-    sceneJumpToTarget(event) {
-        cc.audioEngine.stop(this.audioID);
-        const node = event.target;
-        let attrs = node.getComponent('ButtonAttrs');
+    sceneJumpToTarget(event,scene) {
+        cc.audioEngine.stopAll();
 
-        cc.director.loadScene(attrs.sceneTarget);
+        cc.director.loadScene(scene);
     },
 
     showAlertWindow() {

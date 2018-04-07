@@ -29,7 +29,6 @@ cc.Class({
             default: null
         },
         actionScene: {
-            type: cc.String,
             default:''
         }
     },
@@ -69,9 +68,7 @@ cc.Class({
 
         this.node.destroy();
 
-        const sceneManager = cc.director.getScene().getChildByName('场景管理').getComponent('SceneManager');
-
-        cc.audioEngine.stop(sceneManager.audioID);
+        cc.audioEngine.stopAll();
 
         cc.director.loadScene(this.actionScene);
 

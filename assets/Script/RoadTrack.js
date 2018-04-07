@@ -13,10 +13,7 @@ cc.Class({
 
     properties: {
         posInMap: {
-            // ATTRIBUTES:
-            default: null,        // The default value will be used only when the component attaching
-                                  // to a node for the first time
-            type: cc.Vec2
+            default:cc.v2(0,0)
         }
     },
 
@@ -25,12 +22,12 @@ cc.Class({
     // onLoad () {},
 
     start () {
-        const mapNode = this.node.getParent();
-        console.log(mapNode);
+        // const mapNode = this.node.getParent();
+        // console.log(mapNode);
 
-        const posInMap =  this.node.getNodeToParentTransform();
+        // const posInMap =  this.node.getNodeToParentTransform();
 
-        console.log(posInMap);
+        // console.log(posInMap);
     },
 
     // update (dt) {},

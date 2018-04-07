@@ -13,12 +13,11 @@ cc.Class({
 
     properties: {
         time: {
-            type: Number,
+            type: cc.Float,
             default: 1
         },
         target: {
-            type: String,
-            default: 'Menu'
+            default:''
         }
     },
 

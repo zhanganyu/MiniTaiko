@@ -1,42 +1,53 @@
 [
     {
                 "roleName":"织田信长",
-                "avatar":"avatar_big196.png",
-                "text":"猴子，你来啦！\n那么评定立即开始吧！"
+                "avatar":"avatar_big196",
+                "text":"猴子，你来啦！\n那么评定立即开始吧！",
+                "avatarPosition":"right"
     },
     {
                 "roleName":"织田信长",
-                "avatar":"avatar_big196.png",
-                "text":"本月的目标！\n内政\n军备\n攻略"
+                "avatar":"avatar_big196",
+                "text":"本月的目标！\n内政\n军备\n攻略",
+                "avatarPosition":"right"
     },
     {
                 "roleName":"织田信长",
-                "avatar":"avatar_big196.png",
-                "text":"大家有什么看法吗？"
+                "avatar":"avatar_big196",
+                "text":"大家有什么看法吗？",
+                "avatarPosition":"right"
     },
     {
                 "roleName":"前田利家",
-                "avatar":"avatar_big660.png",
-                "text":"我认为目前应该进行内政啊。"
+                "avatar":"avatar_big660",
+                "text":"我认为目前应该进行内政啊。",
+                "avatarPosition":"right"
     },
     {
                 "roleName":"木下藤吉郎",
-                "avatar":"avatar_big518.png",
-                "text":"(我还是先听听大家的意见吧。。。)"
+                "avatar":"avatar_big518",
+                "text":"(我还是先听听大家的意见吧。。。)",
+                "avatarPosition":"left"
     },
     {
                 "roleName":"织田信长",
-                "avatar":"avatar_big196.png",
-                "text":"好的，说的没错！\n我们这就开始内政！"
+                "avatar":"avatar_big196",
+                "text":"好的，说的没错！\n我们这就开始内政！",
+                "avatarPosition":"right"
     },
     {
                 "roleName":"织田信长",
-                "avatar":"avatar_big196.png",
-                "text":"猴子，购买军粮的任务就交给你了！\n你应该知道怎么完成吧？\n这是3000貫，两月之内至少购回3千石军粮！"
+                "avatar":"avatar_big196",
+                "text":"猴子，购买军粮的任务就交给你了！\n你应该知道怎么完成吧？\n这是3000貫，两月之内至少购回3千石军粮！",
+                "avatarPosition":"right",
+                "action":{
+                    "money":3000
+                }
     },
     {
                 "roleName":"木下藤吉郎",
-                "avatar":"avatar_big518.png",
-                "text":"明白，立即出发，织田大人!"
+                "avatar":"avatar_big518",
+                "text":"明白，立即出发，织田大人!",
+                "avatarPosition":"left"
     }
 ]

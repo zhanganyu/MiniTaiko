@@ -1,0 +1,296 @@
+[
+    {
+        "cityId": "1",
+        "cityName": "清州城",
+        "cityType": "18",
+        "lng": 2730.55,
+        "lat": 7449.09
+    },
+    {
+        "cityId": "2",
+        "cityName": "清州之町",
+        "cityType": "29",
+        "lng": 2643.51,
+        "lat": 7443.97
+    },
+    {
+        "cityId": "3",
+        "cityName": "那古野城",
+        "cityType": "17",
+        "lng": 2694.71,
+        "lat": 7541.25
+    },
+    {
+        "cityId": "4",
+        "cityName": "小牧山城",
+        "cityType": "17",
+        "lng": 2863.67,
+        "lat": 7568.55
+    },
+    {
+        "cityId": "5",
+        "cityName": "大恒城",
+        "cityType": "17",
+        "lng": 2897.80,
+        "lat": 7343.27
+    },
+    {
+        "cityId": "6",
+        "cityName": "墨股城",
+        "cityType": "16",
+        "lng": 2943.88,
+        "lat": 7462.74
+    },
+    {
+        "cityId": "7",
+        "cityName": "长岛城",
+        "cityType": "13",
+        "lng": 2614.49,
+        "lat": 7305.73
+    },
+    {
+        "cityId": "8",
+        "cityName": "鸣海城",
+        "cityType": "17",
+        "lng": 2523.58,
+        "lat": 7540.69
+    },
+    {
+        "cityId": "9",
+        "cityName": "冈崎之町",
+        "cityType": "28",
+        "lng": 2448.92,
+        "lat": 7598.29
+    },
+    {
+        "cityId": "10",
+        "cityName": "井之口之町",
+        "cityType": "28",
+        "lng": 3065.45,
+        "lat": 7466.03
+    },
+    {
+        "cityId": "11",
+        "cityName": "曾根城",
+        "cityType": "20",
+        "lng": 3165.72,
+        "lat": 7404.16
+    },
+    {
+        "cityId": "12",
+        "cityName": "稻叶山城",
+        "cityType": "22",
+        "lng": 3054.78,
+        "lat": 7519.36
+    },
+    {
+        "cityId": "13",
+        "cityName": "今滨城",
+        "cityType": "16",
+        "lng": 3001.45,
+        "lat": 7203.63
+    },
+    {
+        "cityId": "14",
+        "cityName": "小谷城",
+        "cityType": "21",
+        "lng": 3127.32,
+        "lat": 7216.43
+    },
+    {
+        "cityId": "15",
+        "cityName": "今滨之町",
+        "cityType": "28",
+        "lng": 3029.18,
+        "lat": 7120.43
+    },
+    {
+        "cityId": "16",
+        "cityName": "佐和山城",
+        "cityType": "16",
+        "lng": 7088.43,
+        "lat": 7088.43
+    },
+    {
+        "cityId": "17",
+        "cityName": "目加田之町",
+        "cityType": "29",
+        "lng": 2822.25,
+        "lat": 6962.56
+    },
+    {
+        "cityId": "18",
+        "cityName": "观音寺城",
+        "cityType": "18",
+        "lng": 2743.32,
+        "lat": 6958.29
+    },
+    {
+        "cityId": "19",
+        "cityName": "日野城",
+        "cityType": "20",
+        "lng": 2681.45,
+        "lat": 7062.83
+    },
+    {
+        "cityId": "20",
+        "cityName": "甲贺之里",
+        "cityType": "34",
+        "lng": 2617.91,
+        "lat": 6959.27
+    },
+    {
+        "cityId": "21",
+        "cityName": "伊贺上野城",
+        "cityType": "20",
+        "lng": 2527.45,
+        "lat": 6834.69
+    },
+    {
+        "cityId": "22",
+        "cityName": "坂本城",
+        "cityType": "17",
+        "lng": 2762.52,
+        "lat": 6702.29
+    },
+    {
+        "cityId": "23",
+        "cityName": "京之町",
+        "cityType": "8",
+        "lng": 2768.92,
+        "lat": 6614.83
+    },
+    {
+        "cityId": "24",
+        "cityName": "二条城",
+        "cityType": "6",
+        "lng": 2845.72,
+        "lat": 6604.16
+    },
+    {
+        "cityId": "25",
+        "cityName": "丹波龟山城",
+        "cityType": "20",
+        "lng": 2950.25,
+        "lat": 6531.63
+    },
+    {
+        "cityId": "26",
+        "cityName": "龟山之町",
+        "cityType": "28",
+        "lng": 2954.52,
+        "lat": 6448.43
+    },
+    {
+        "cityId": "27",
+        "cityName": "芥川城",
+        "cityType": "17",
+        "lng": 2768.92,
+        "lat": 6480.43
+    },
+    {
+        "cityId": "28",
+        "cityName": "胜龙寺城",
+        "cityType": "16",
+        "lng": 2664.38,
+        "lat": 6548.69
+    },
+    {
+        "cityId": "29",
+        "cityName": "饭盛城",
+        "cityType": "17",
+        "lng": 2640.92,
+        "lat": 6439.89
+    },
+    {
+        "cityId": "30",
+        "cityName": "多闻山城",
+        "cityType": "21",
+        "lng": 2604.65,
+        "lat": 6634.03
+    },
+    {
+        "cityId": "31",
+        "cityName": "奈良之町",
+        "cityType": "28",
+        "lng": 2500.12,
+        "lat": 6646.83
+    },
+    {
+        "cityId": "32",
+        "cityName": "大和郡山城",
+        "cityType": "21",
+        "lng": 2414.78,
+        "lat": 6642.56
+    },
+    {
+        "cityId": "33",
+        "cityName": "信贵山城",
+        "cityType": "21",
+        "lng": 2527.85,
+        "lat": 6520.96
+    },
+    {
+        "cityId": "34",
+        "cityName": "石山本愿寺城",
+        "cityType": "18",
+        "lng": 2643.05,
+        "lat": 6264.96
+    },
+    {
+        "cityId": "35",
+        "cityName": "石山之町",
+        "cityType": "26",
+        "lng": 2540.65,
+        "lat": 6290.56
+    },
+    {
+        "cityId": "36",
+        "cityName": "高屋城",
+        "cityType": "17",
+        "lng": 2382.78,
+        "lat": 6316.16
+    },
+    {
+        "cityId": "37",
+        "cityName": "界之町",
+        "cityType": "9",
+        "lng": 2440.38,
+        "lat": 6160.43
+    },
+    {
+        "cityId": "38",
+        "cityName": "岸和田城",
+        "cityType": "12",
+        "lng": 2384.92,
+        "lat": 6070.83
+    },
+    {
+        "cityId": "39",
+        "cityName": "杂贺之町",
+        "cityType": "29",
+        "lng": 5775.532,
+        "lat": -4637.162
+    },
+    {
+        "cityId": "40",
+        "cityName": "杂贺城",
+        "cityType": "13",
+        "lng": 5776.724,
+        "lat": -4735.454
+    },
+    {
+        "cityId": "41",
+        "cityName": "根来之里",
+        "cityType": "34",
+        "lng": 5935.596,
+        "lat": -4752.434
+    },
+    {
+        "cityId": "42",
+        "cityName": "新宫城",
+        "cityType": "12",
+        "lng": 6317.649,
+        "lat": -5182.627
+    }
+]

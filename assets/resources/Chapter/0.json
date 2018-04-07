@@ -1,22 +1,26 @@
 [
     {
                 "roleName":"宁宁",
-                "avatar":"ningning.png",
-                "text":"新的故事开始了..."
+                "avatar":"ningning",
+                "text":"新的故事开始了...",
+                "avatarPosition":"right"
     },
     {
                 "roleName":"宁宁",
-                "avatar":"ningning.png",
-                "text":"相公，你回来啦？\n这里是我们的家，到下次评定召开，你可以在这里休息哦。"
+                "avatar":"ningning",
+                "text":"相公，你回来啦？\n这里是我们的家，到下次评定召开，你可以在这里休息哦。",
+                "avatarPosition":"right"
     },
     {
                 "roleName":"宁宁",
-                "avatar":"ningning.png",
-                "text":"注意时间哦，别耽误了评定召开的时间..."
+                "avatar":"ningning",
+                "text":"注意时间哦，别耽误了评定召开的时间...",
+                "avatarPosition":"right"
     },
     {
                 "roleName":"木下藤吉郎",
-                "avatar":"avatar_big518.png",
-                "text":"好的。"
+                "avatar":"avatar_big518",
+                "text":"好的。",
+                "avatarPosition":"left"
     }
 ]

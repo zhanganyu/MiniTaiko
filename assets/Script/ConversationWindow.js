@@ -32,9 +32,9 @@ cc.Class({
             type: cc.Button,
 
         },
-        chatList:{
-            type:Array,
-            default:[]
+        chatList: {
+            type: Array,
+            default: []
         },
     },
 
@@ -48,6 +48,8 @@ cc.Class({
         clickEventHandler.customEventData = "";
 
         this.sessionButton.clickEvents.push(clickEventHandler);
+
+        this.dataManager = cc.director.getScene().getChildByName('数据管理').getComponent('GameDataManager');
 
         this.chatNo = 0;
     },
@@ -63,17 +65,34 @@ cc.Class({
         this.text.string = chat.text;
         this.roleName.string = chat.roleName;
 
+        const avatarRight = chat.avatarPosition === 'right';
+
+        const widget = this.avatar.getComponent(cc.Widget);
+        widget.horizontalCenter = avatarRight ? 270 : -270;
+        widget.bottom = 0;
+
+        widget.updateAlignment();
+
         cc.loader.loadRes(`/Avatar-big/${chat.avatar}`, cc.SpriteFrame, (err, spriteFrame) => {
             if (err) {
                 cc.error(err.message || err);
-                return;
-            }
-            cc.log('Result should be a sprite frame: ' + (spriteFrame instanceof cc.SpriteFrame));
 
-            this.avatar.spriteFrame = spriteFrame;
+            } else {
+                this.avatar.spriteFrame = spriteFrame;
+            }
         });
 
         this.chatNo++;
+
+        //处理事件
+        const {action} = chat;
+        if (action) {
+            if (action.money) {
+                
+                this.dataManager.gameData.money += action.money;
+                this.dataManager.node.dispatchEvent( new cc.Event.EventCustom('update-data', true) );
+            }
+        }
     },
 
     onNext() {
