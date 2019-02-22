@@ -19,6 +19,10 @@ cc.Class({
         dialogPrefab: {
             type: cc.Prefab,
             default: null
+        },
+        mapPrefab:{ 
+            type:cc.Prefab, 
+            default : null 
         }
     },
 
@@ -30,6 +34,8 @@ cc.Class({
             //console.log(roads);
             this.roads = roads;
         });
+
+        this.loadMap();
     },
 
     start() {
@@ -135,6 +141,47 @@ cc.Class({
         label.string = title;
 
         window.actionScene = 'City';
-    }
+    },
+
+    loadMap() {
+        cc.loader.loadResDir('map-json',(err, data) => {
+            if (err) {
+                cc.error(err);
+                return;
+            }
+            var json = data[0];
+            for (let x = 0; x < 53; x++) {
+                for (let y = 0; y< 40;  y++) {
+                    const imageName = json.map[x][y];
+                    this.renderMapCube(y,x, imageName);
+                }
+            }
+        });
+    },
+
+    renderMapCube(x, y, picName) {
+        if (parseInt(picName) === 0) return;
+        var node = cc.instantiate(this.mapPrefab);
+        //pos = colIndex / width, (json.map.length - rowIndex) * height
+        node.position = cc.v2(x * 256  , (43 - y) * 160);
+        node.size = cc.v2(256, 160);
+        
+        var sprite = node.getComponent(cc.Sprite);
+        // TODO diffrent icons
+        var url = 'BigMap/JMAP_' + this.prefixInteger(parseInt(picName),4);
+        // cc.log(url);
+        this.addSpritePic(sprite, url);
+        
+        this.node.addChild(node);
+    },
+
+    prefixInteger(num, length) {
+        return (Array(length).join('0') + num).slice(-length);
+    },
+    addSpritePic(node, url){
+        cc.loader.loadRes(url, cc.SpriteFrame, function (err, spFrame) {
+            node.spriteFrame = spFrame;
+        });
+    },
 
 });

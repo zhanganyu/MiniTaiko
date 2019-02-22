@@ -589,6 +589,9 @@
     },
     "dialogPrefab": {
       "__uuid__": "f0b6e283-4213-4c93-ba16-e221b3b5ad0f"
+    },
+    "mapPrefab": {
+      "__uuid__": "7ac2ee52-2a8a-473b-9401-a2d7a7a109b0"
     }
   },
   {
